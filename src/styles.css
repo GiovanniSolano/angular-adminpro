@@ -12,6 +12,11 @@
     cursor: pointer;
 }
 
+.img-avatar {
+    width: 250px;
+    height: 250px;
+}
+
 #googleBtn {
     display: flex;
     align-items: center;
