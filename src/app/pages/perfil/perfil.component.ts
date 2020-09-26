@@ -19,7 +19,7 @@ export class PerfilComponent implements OnInit {
   public imgTemp: any = '';
 
   constructor(private fb: FormBuilder, private usuarioService: UsuarioService,
-      private fileUploadService: FileUploadService) {
+              private fileUploadService: FileUploadService) {
 
 
    }
@@ -45,7 +45,7 @@ export class PerfilComponent implements OnInit {
 
                           Swal.fire('Guardado', 'Cambios fueron guardados', 'success');
                         }, (err) => {
-                          Swal.fire('Error', err.error.msg, 'error')
+                          Swal.fire('Error', err.error.msg, 'error');
                           
                         });
     
