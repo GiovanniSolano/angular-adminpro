@@ -32,6 +32,10 @@
     width: 140px;
 }
 
+.w180 {
+    width: 180px;
+}
+
 .avatar {
     width: 75px;
     border-radius: 100%;
